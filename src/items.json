@@ -1,0 +1,48 @@
+{
+  "Current": [
+    {
+      "heading": "BSc(Eng) Electrical & Computer Engineering",
+      "subheading": "Full-time • 2019 - 2022",
+      "extra": "University of Cape Town",
+      "link": null
+    }
+  ],
+  "Past": [
+    {
+      "heading": "Neon Analytics",
+      "subheading": "Co-founder (Exited) • 2018 - 2022",
+      "extra": "LinkedIn Marketing Analytics",
+      "link": "https://analytics.neonsolutions.co.za"
+    },
+    {
+      "heading": "Synthetic Punks",
+      "subheading": "Project • 2022",
+      "extra": "A unique, fully on-chain CryptoPunk associated with each Ethereum address",
+      "link": "https://syntheticpunks.com"
+    },
+    {
+      "heading": "Synthetic Loot Viewer",
+      "subheading": "Project • 2021",
+      "extra": "Viewer for Synthetic Loot (lootproject.com)",
+      "link": "https://loot.stephancill.co.za"
+    },
+    {
+      "heading": "Ethereum Friend Directory",
+      "subheading": "Project • 2021",
+      "extra": "A portable list of mutuals for the decentralized web • Goerli Network",
+      "link": "https://efd.stephancill.co.za"
+    },
+    {
+      "heading": "ForwardMail",
+      "subheading": "Project • 2019",
+      "extra": "Privacy-preserving email addresses",
+      "link": "https://forwardmail.rocks"
+    },    
+    {
+      "heading": "MovieCheck",
+      "subheading": "Project • 2019",
+      "extra": "Your personal entertainment portfolio",
+      "link": "https://github.com/stephancill/moviecheck"
+    }
+  ]
+}
