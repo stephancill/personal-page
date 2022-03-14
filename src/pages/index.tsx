@@ -13,12 +13,12 @@ const IndexPage = () => {
         <title>Stephan</title>
       </Helmet>
       <div style={{marginLeft: "auto", marginRight: "auto", maxWidth: "390px"}}>
-        <div style={{marginTop: "120px", marginBottom: "120px"}}>
+        <div className="content">
           <Header/>
           <List heading="Current" items={items.Current}/>
           <List heading="Past" items={items.Past}/>
         </div>
-        <div style={{textAlign: "center"}}>© 2022</div>
+        <div style={{textAlign: "center"}}><a style={{color: "black"}} href="http://github.com/stephancill/personal-page" target="_blank" rel="noopener noreferrer">src</a> © 2022</div>
       </div>
     </div>
   )

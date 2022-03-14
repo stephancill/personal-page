@@ -4,7 +4,8 @@
       "heading": "BSc(Eng) Electrical & Computer Engineering",
       "subheading": "Full-time • 2019 - 2022",
       "extra": "University of Cape Town",
-      "link": null
+      "link": null,
+      "icon": "http://www.uct.ac.za/misc/favicon.ico"
     }
   ],
   "Past": [
@@ -12,43 +13,50 @@
       "heading": "Neon Analytics",
       "subheading": "Co-founder (Exited) • 2020 - 2022",
       "extra": "LinkedIn Marketing Analytics",
-      "link": "https://analytics.neonsolutions.co.za"
+      "link": "https://analytics.neonsolutions.co.za",
+      "icon": "https://analytics.neonsolutions.co.za/static/favicons/apple-touch-icon.png"
     },
     {
       "heading": "Synthetic Punks",
       "subheading": "Project • 2022",
       "extra": "A unique, fully on-chain CryptoPunk associated with each Ethereum address",
-      "link": "https://syntheticpunks.com"
+      "link": "https://syntheticpunks.com",
+      "icon": "https://syntheticpunks.com/favicon.ico"
     },
     {
       "heading": "Synthetic Loot Viewer",
       "subheading": "Project • 2021",
       "extra": "Viewer for Synthetic Loot (lootproject.com)",
-      "link": "https://loot.stephancill.co.za"
+      "link": "https://loot.stephancill.co.za",
+      "icon": "https://loot.stephancill.co.za/favicon.ico"
     },
     {
       "heading": "Ethereum Friend Directory",
       "subheading": "Project • 2021",
       "extra": "A portable list of mutuals for the decentralized web • Goerli Network",
-      "link": "https://efd.stephancill.co.za"
+      "link": "https://efd.stephancill.co.za",
+      "icon": "https://bafybeifdhy3wiqleybjohl4hj6mp4oue6l2eet5xqnb4eq7smmwuahuxyq.ipfs.infura-ipfs.io/favicon.ico"
     },
     {
       "heading": "ForwardMail",
       "subheading": "Project • 2019",
       "extra": "Privacy-preserving email addresses",
-      "link": "https://forwardmail.rocks"
+      "link": "https://forwardmail.rocks",
+      "icon": "https://forwardmail.rocks/static/favicons/favicon-192.png"
     },    
     {
       "heading": "MovieCheck",
       "subheading": "Project • 2019",
       "extra": "Your personal entertainment portfolio",
-      "link": "https://github.com/stephancill/moviecheck"
+      "link": "https://github.com/stephancill/moviecheck",
+      "icon": "https://raw.githubusercontent.com/stephancill/moviecheck/master/static/img/favicons/favicon-114.png"
     },
     {
       "heading": "Cell TraQ",
       "subheading": "Contract Project • 2018 - 2019",
       "extra": "Thermal camera system that monitors temperatures at electrochemical plants to improve efficiency • MasQ Brands",
-      "link": "https://masq.co.za/cell-traq/"
+      "link": "https://masq.co.za/cell-traq/",
+      "icon": "https://traxs.tech/wp-content/uploads/2018/07/Webp.net-resizeimage-2.png"
     }
   ]
 }

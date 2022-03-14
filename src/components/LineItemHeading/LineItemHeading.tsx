@@ -8,7 +8,8 @@ interface ILineItemHeadingProps {
 
 export const LineItemHeading = ({item}: ILineItemHeadingProps) => {
   return <div style={{display: "flex", marginBottom: "6px"}}>
-  <span style={{flexGrow: "1"}}>{item.heading}</span>
-  {item.link && <span><ExternalLink/></span>}
-</div>
+    {item.icon && <img style={{width: "16px", height: "16px", marginRight: "5px", marginTop: "2px"}} src={item.icon} alt={item.heading} />}
+    <span style={{flexGrow: "1"}}>{item.heading}</span>
+    {item.link && <span><ExternalLink/></span>}
+  </div>
 }
