@@ -2,19 +2,32 @@
   "Current": [
     {
       "heading": "BSc(Eng) Electrical & Computer Engineering",
-      "subheading": "Full-time • 2019 - 2022",
+      "subheading": "Full-time • 2019 - Present",
       "extra": "University of Cape Town",
       "link": null,
-      "icon": "http://www.uct.ac.za/misc/favicon.ico"
+      "icon": "https://www.uct.ac.za/misc/favicon.ico"
+    },
+    {
+      "heading": "Neon Solutions",
+      "subheading": "Co-founder • 2019 - Present",
+      "link": "https://neonsolutions.co.za",
+      "icon": "https://neonsolutions.co.za/static/favicons/favicon-32x32.png"
+    },
+    {
+      "heading": "Onset Carbon by Neon Solutions",
+      "subheading": "Developer • 2022 - Present",
+      "extra": "Easy, publicly verifiable carbon offsetting for businesses",
+      "link": "https://verify.onsetcarbon.com",
+      "icon": "https://verify.onsetcarbon.com/favicon.ico"
     }
   ],
   "Past": [
     {
-      "heading": "Neon Analytics",
-      "subheading": "Co-founder (Exited) • 2020 - 2022",
+      "heading": "Neon Analytics by Neon Solutions",
+      "subheading": "Developer • 2020 - 2022",
       "extra": "LinkedIn Marketing Analytics",
       "link": "https://analytics.neonsolutions.co.za",
-      "icon": "https://analytics.neonsolutions.co.za/static/favicons/apple-touch-icon.png"
+      "icon": "https://analytics.neonsolutions.co.za/static/favicons/favicon-32x32.png"
     },
     {
       "heading": "Synthetic Punks",
