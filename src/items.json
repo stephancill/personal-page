@@ -14,11 +14,11 @@
       "icon": "https://neonsolutions.co.za/static/favicons/favicon-32x32.png"
     },
     {
-      "heading": "Onset Carbon by Neon Solutions",
-      "subheading": "Developer • 2022 - Present",
-      "extra": "Easy, publicly verifiable carbon offsetting for businesses",
-      "link": "https://verify.onsetcarbon.com",
-      "icon": "https://verify.onsetcarbon.com/favicon.ico"
+      "heading": "Onset Carbon, Inc.",
+      "subheading": "Co-founder • 2022 - Present",
+      "extra": "Easy, publicly verifiable carbon offsetting",
+      "link": "https://www.onsetcarbon.com",
+      "icon": "https://www.onsetcarbon.com/favicon.ico"
     }
   ],
   "Past": [
@@ -30,11 +30,11 @@
       "icon": "https://analytics.neonsolutions.co.za/static/favicons/favicon-32x32.png"
     },
     {
-      "heading": "Synthetic Punks",
+      "heading": "Synthetic Nouns",
       "subheading": "Project • 2022",
-      "extra": "A unique, fully on-chain CryptoPunk associated with each Ethereum address",
-      "link": "https://syntheticpunks.com",
-      "icon": "https://syntheticpunks.com/favicon.ico"
+      "extra": "A unique, claimable Noun for every Ethereum address. (nouns.wtf)",
+      "link": "https://nouns.stephancill.co.za",
+      "icon": "https://nouns.stephancill.co.za/favicon.ico"
     },
     {
       "heading": "Synthetic Loot Viewer",
@@ -43,6 +43,14 @@
       "link": "https://loot.stephancill.co.za",
       "icon": "https://loot.stephancill.co.za/favicon.ico"
     },
+    {
+      "heading": "Synthetic Punks",
+      "subheading": "Project • 2022",
+      "extra": "A unique, fully on-chain CryptoPunk associated with each Ethereum address",
+      "link": "https://syntheticpunks.com",
+      "icon": "https://syntheticpunks.com/favicon.ico"
+    },
+
     {
       "heading": "Ethereum Friend Directory",
       "subheading": "Project • 2021",
@@ -56,7 +64,7 @@
       "extra": "Privacy-preserving email addresses",
       "link": "https://forwardmail.rocks",
       "icon": "https://forwardmail.rocks/static/favicons/favicon-192.png"
-    },    
+    },
     {
       "heading": "MovieCheck",
       "subheading": "Project • 2019",
