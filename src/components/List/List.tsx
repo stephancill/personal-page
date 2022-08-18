@@ -7,13 +7,19 @@ interface IListProps {
   items: IItem[]
 }
 
-export const List = ({heading, items}: IListProps) => {
-  return <div style={{marginTop: "37px"}}>
-    <div style={{fontWeight: "bold", marginBottom: "19px"}}>{heading}</div>
-    <div>
-      {items.map((item, index) => {
-        return <div key={index} style={{marginBottom: "29px"}}><LineItem item={item}/></div>
-      })}
+export const List = ({ heading, items }: IListProps) => {
+  return (
+    <div style={{ marginTop: "37px" }}>
+      <div style={{ fontWeight: "bold", marginBottom: "19px" }}>{heading}</div>
+      <div>
+        {items.map((item, index) => {
+          return (
+            <div key={index} style={{ marginBottom: "29px" }}>
+              <LineItem item={item} />
+            </div>
+          )
+        })}
+      </div>
     </div>
-  </div>
+  )
 }
