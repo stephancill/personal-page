@@ -6,12 +6,15 @@ import LinkedinIcon from "../../images/linkedin.svg"
 
 export const Header = () => {
   return (
-    <div>
+    <div style={{ marginBottom: "35px" }}>
       <div style={{ display: "flex" }}>
-        <div className={style.avatar}></div>
+        <img src="https://metadata.ens.domains/mainnet/avatar/stephancill.eth" className={style.avatar}></img>
         <div style={{ marginLeft: "10px" }}>
-          <div style={{ fontSize: "24px" }}>Stephan</div>
-          <div className="subheading">@stephancill</div>
+          <div className={`${style.line}`} style={{ fontSize: "24px" }}>
+            Stephan Cilliers
+          </div>
+          <div className={`${style.line} ${style.subheading}`}>Builder, thinker, tech optimist</div>
+          <div className={`${style.line} ${style.subheading}`}>@stephancill</div>
           <div style={{ marginTop: "6px" }}>
             <a href="https://twitter.com/stephancill" target="_blank" rel="noopener noreferrer">
               <span style={{ marginRight: "5px" }}>
@@ -32,8 +35,10 @@ export const Header = () => {
         </div>
       </div>
       <div style={{ marginTop: "20px" }}>
-        Builder, thinker, tech optimist. Interested in <i>decentralized technology</i> and{" "}
-        <i>personal crypto hardware</i>.
+        <div style={{ fontWeight: "500", marginBottom: "15px" }}>About</div>
+        Hi, I'm Stephan. I enjoy solving problems by shipping products with an obsessive attention to detail. I am
+        interested in decentralisation and how distributed technology can be leveraged to improve the lives of billions
+        of people.
       </div>
     </div>
   )

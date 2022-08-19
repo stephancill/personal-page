@@ -1,0 +1,12 @@
+.item .line {
+  padding-bottom: 15px;
+}
+
+.body {
+  color: #313131;
+  max-width: 500px;
+}
+
+.tags {
+  color: rgba(49, 49, 49, 0.5);
+}

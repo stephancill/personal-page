@@ -4,18 +4,37 @@ import { LineItem } from "../LineItem/LineItem"
 
 interface IListProps {
   heading: string
-  items: IItem[]
+  years: {
+    year: string
+    items: IItem[]
+  }[]
+  lineItemBuilder: (item: IItem, index: number) => JSX.Element
 }
 
-export const List = ({ heading, items }: IListProps) => {
+export const List = ({ heading, years, lineItemBuilder }: IListProps) => {
   return (
-    <div style={{ marginTop: "37px" }}>
-      <div style={{ fontWeight: "bold", marginBottom: "19px" }}>{heading}</div>
+    <div>
+      <div style={{ fontWeight: "500", marginBottom: "15px" }}>{heading}</div>
       <div>
-        {items.map((item, index) => {
+        {years.map((yearItem, index) => {
           return (
-            <div key={index} style={{ marginBottom: "29px" }}>
-              <LineItem item={item} />
+            <div style={{ display: "flex" }} key={index}>
+              <div
+                style={{
+                  maxWidth: "200px",
+                  minWidth: "100px",
+                  width: "10vw",
+                  color: "rgba(49, 49, 49, 0.8)",
+                  flexShrink: "0",
+                }}
+              >
+                {yearItem.year}
+              </div>
+              <div style={{}}>
+                {yearItem.items.map((item, index) => {
+                  return lineItemBuilder(item, index)
+                })}
+              </div>
             </div>
           )
         })}
