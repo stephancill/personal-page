@@ -19,23 +19,6 @@ export const Header = () => {
           <div className={`${style.line}`} style={{ color: "rgba(135, 135, 135, 1)" }}>
             @stephancill
           </div>
-          {/* <div style={{ marginTop: "6px" }}>
-            <a href="https://twitter.com/stephancill" target="_blank" rel="noopener noreferrer">
-              <span style={{ marginRight: "5px" }}>
-                <TwitterIcon />
-              </span>
-            </a>
-            <a href="https://github.com/stephancill" target="_blank" rel="noopener noreferrer">
-              <span>
-                <GithubIcon />
-              </span>
-            </a>
-            <a href="https://linkedin.com/in/stephancill" target="_blank" rel="noopener noreferrer">
-              <span style={{ marginLeft: "6px" }}>
-                <LinkedinIcon />
-              </span>
-            </a>
-          </div> */}
         </div>
       </div>
       <div style={{ marginTop: "20px" }}>
