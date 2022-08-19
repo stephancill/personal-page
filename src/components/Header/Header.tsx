@@ -13,9 +13,13 @@ export const Header = () => {
           <div className={`${style.line}`} style={{ fontSize: "24px" }}>
             Stephan Cilliers
           </div>
-          <div className={`${style.line} ${style.subheading}`}>Builder, thinker, tech optimist</div>
-          <div className={`${style.line} ${style.subheading}`}>@stephancill</div>
-          <div style={{ marginTop: "6px" }}>
+          <div className={`${style.line}`} style={{ color: "rgba(49, 49, 49, 1)" }}>
+            Builder, thinker, tech optimist
+          </div>
+          <div className={`${style.line}`} style={{ color: "rgba(135, 135, 135, 1)" }}>
+            @stephancill
+          </div>
+          {/* <div style={{ marginTop: "6px" }}>
             <a href="https://twitter.com/stephancill" target="_blank" rel="noopener noreferrer">
               <span style={{ marginRight: "5px" }}>
                 <TwitterIcon />
@@ -31,7 +35,7 @@ export const Header = () => {
                 <LinkedinIcon />
               </span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       <div style={{ marginTop: "20px" }}>
