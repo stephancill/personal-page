@@ -14,7 +14,7 @@ interface IListProps {
 export const List = ({ heading, years, lineItemBuilder }: IListProps) => {
   return (
     <div>
-      <div style={{ fontWeight: "500", marginBottom: "15px" }}>{heading}</div>
+      <div style={{ fontWeight: "bold", marginBottom: "15px" }}>{heading}</div>
       <div>
         {years.map((yearItem, index) => {
           return (

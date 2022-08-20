@@ -6,6 +6,7 @@ import items from "./../items.json"
 import { Helmet } from "react-helmet"
 import { LineItem } from "../components/LineItem/LineItem"
 import { LargeIconLineItem } from "../components/LargeIconLineItem/LargeIconLineItem"
+import { LinksSection } from "../components/LinksSection/LinksSection"
 
 const IndexPage = () => {
   console.log(Object.keys(items.Current[0]))
@@ -43,35 +44,7 @@ const IndexPage = () => {
             }}
           />
 
-          <div>
-            <div style={{ fontWeight: "500", marginBottom: "15px" }}>Links</div>
-            <div>
-              {items.Links.map(({ title, username, link }, index) => {
-                return (
-                  <div key={index} style={{ display: "flex", paddingBottom: "15px" }}>
-                    <div
-                      style={{
-                        maxWidth: "200px",
-                        minWidth: "100px",
-                        width: "10vw",
-                        color: "rgba(49, 49, 49, 0.8)",
-                        flexShrink: "0",
-                      }}
-                    >
-                      {title}
-                    </div>
-                    <div>
-                      <a href={link} target="_blank" rel="noopener noreferrer">
-                        {username}
-                      </a>
-                    </div>
-                  </div>
-                )
-              })}
-            </div>
-          </div>
-
-          {/* <List heading="Past" items={items.Past} /> */}
+          <LinksSection links={items.Links} />
         </div>
         <div style={{ textAlign: "center" }}>
           <a
