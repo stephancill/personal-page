@@ -18,7 +18,7 @@
         {
           "heading": "Co-founder - Neon Solutions (Pty) Ltd.",
           "body": "Built a technology company that develops custom digital analytics solutions for businesses with an agile development approach. Wrote business proposals, negotiated terms, designed and developed products in a team environment, offered product support and maintenance.",
-          "tags": ["Business skills", "PostgreSQL", "MongoDB", "Vue.js", "Sanic", "Jinja"],
+          "tags": ["Business skills", "Product development", "Agile"],
           "link": "https://neonsolutions.co.za",
           "icon": "https://neonsolutions.co.za/static/favicons/favicon-32x32.png"
         }
@@ -30,9 +30,33 @@
         {
           "heading": "Co-founder - Onset Carbon, Inc.",
           "body": "Founded a company with a mission to make carbon offsetting more accessible and verifiable through the use of blockchain technology. Incorporated a U.S. entity, developed a fully functional minimum viable product, and secured grant funding to support ongoing development and growth.",
-          "tags": ["Startup", "Web3", "Carbon markets", "React", "Nest.js", "PostgreSQL"],
+          "tags": ["Startup", "Web3", "Carbon markets"],
           "link": "https://www.onsetcarbon.com",
           "icon": "https://www.onsetcarbon.com/favicon.ico"
+        }
+      ]
+    },
+    {
+      "year": "2019",
+      "items": [
+        {
+          "heading": "Part-time developer - Glucode (Pty) Ltd.",
+          "body": "Worked remotely with a team implementing designs to build the Club App.",
+          "tags": ["iOS", "Swift"],
+          "link": "https://glucode.com",
+          "icon": "https://static2.glucode.com/assets/favicon-a85d935622466f749ed8b95f6bb267b0e2adfe63f7897a3d120875e4e3194d27.ico"
+        }
+      ]
+    },
+    {
+      "year": "2018",
+      "items": [
+        {
+          "heading": "Intern - Glucode (Pty) Ltd.",
+          "body": "Worked on various iOS applications.",
+          "tags": ["iOS", "Swift"],
+          "link": "https://glucode.com",
+          "icon": "https://static2.glucode.com/assets/favicon-a85d935622466f749ed8b95f6bb267b0e2adfe63f7897a3d120875e4e3194d27.ico"
         }
       ]
     }
@@ -49,7 +73,7 @@
         {
           "heading": "Neon Analytics by Neon Solutions",
           "body": "LinkedIn marketing analytics platform built in collaboration with Turn Left Media.",
-          "tags": ["SaaS", "LinkedIn Marketing API", "Sanic", "Jinja"],
+          "tags": ["SaaS", "LinkedIn Marketing API", "Sanic", "Jinja", "Python"],
           "link": "https://analytics.neonsolutions.co.za",
           "icon": "https://analytics.neonsolutions.co.za/static/favicons/favicon-32x32.png"
         }
@@ -100,14 +124,14 @@
         {
           "heading": "ForwardMail",
           "body": "A simple proxy for your email address which creates aliases which can be easily disconnected to prevent unwanted email spam.",
-          "tags": ["Privacy", "Django", "HTML", "CSS", "jQuery"],
+          "tags": ["Privacy", "Django", "HTML", "CSS", "jQuery", "Python"],
           "link": "https://forwardmail.rocks",
           "icon": "https://forwardmail.rocks/static/favicons/favicon-192.png"
         },
         {
           "heading": "MovieCheck",
           "body": "Your personal entertainment portfolio. Easily track and review movies you’ve seen and want to see.",
-          "tags": ["Entertainment", "Sanic", "Jinja", "HTML", "CSS", "jQuery"],
+          "tags": ["Entertainment", "Sanic", "Jinja", "HTML", "CSS", "jQuery", "Python"],
           "link": "https://github.com/stephancill/moviecheck",
           "icon": "https://raw.githubusercontent.com/stephancill/moviecheck/master/static/img/favicons/favicon-114.png"
         }
@@ -122,6 +146,18 @@
           "tags": ["IoT", "Remote Sensing", "Vue.js", "Python", "Flask"],
           "link": "https://masq.co.za/cell-traq/",
           "icon": "https://masq.co.za/wp-content/uploads/2018/07/MasQ-Web-150x139.png"
+        }
+      ]
+    },
+    {
+      "year": "2016",
+      "items": [
+        {
+          "heading": "Simple Learning Time",
+          "body": "Simple Learning Time was built as a replacement for an app that was used at Parklands College to teach junior learners how to tell time. It is used in multiple schools across South Africa and several other countries.",
+          "tags": ["Education", "iOS", "Swift"],
+          "link": "https://itunes.apple.com/za/app/simple-learning-time/id1096092596?mt=8",
+          "icon": "https://github.com/stephancill/simple-learning-time/blob/master/SimpleLearningTime/Assets.xcassets/AppIcon.appiconset/Icon-83.5@2x.png?raw=true"
         }
       ]
     }
@@ -141,20 +177,31 @@
       "title": "LinkedIn",
       "username": "@stephancill",
       "link": "https://linkedin.com/in/stephancill"
-    },
-    {
-      "title": "Etherscan",
-      "username": "stephancill.eth",
-      "link": "https://etherscan.io/address/0x8d25687829d6b85d9e0020b8c89e3ca24de20a89"
     }
   ],
   "Achievements": [
     {
-      "heading": "3x Apple WWDC Scholar",
-      "subheading": "Scholarship • 2016, 2017, 2018",
-      "body": "Invited to attend the World Wide Developers Conference in California through Apple's Scholarship programme • Apple",
-      "link": "https://www.wwdcscholars.com/s/497A8A1C-4520-48C8-8006-862DEFC29EC4",
-      "icon": "https://apple.com/favicon.ico"
+      "year": "2016 - 2018",
+      "items": [
+        {
+          "heading": "3x Apple WWDC Scholar",
+          "body": "Invited to attend the World Wide Developers Conference in California through Apple's Scholarship programme on three occasions.",
+          "link": "https://www.wwdcscholars.com/s/497A8A1C-4520-48C8-8006-862DEFC29EC4",
+          "icon": "https://apple.com/favicon.ico",
+          "tags": ["Apple", "Swift", "iOS"]
+        }
+      ]
+    },
+    {
+      "year": "2017",
+      "items": [
+        {
+          "heading": "WRO 2017 Advanced Robotics Challenge Internationals",
+          "body": "Team Infinity placed 9th out of 25 teams in the Advanced Robotics Challenge at the World Robot Olympiad in Costa Rica. The challenge was to build a robot that plays a tetris-like game where it has to pick up randomly selected tetracubes and place them in an upright frame to form rows to score points.",
+          "icon": "https://wro-association.org/wp-content/uploads/world-robot-olympiad_logo-white.png",
+          "tags": ["Mechatronics", "Autonomous robotics", "Embedded Systems", "LabView"]
+        }
+      ]
     }
   ]
 }

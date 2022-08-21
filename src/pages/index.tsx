@@ -1,65 +1,44 @@
-import * as React from "react"
+import React from "react"
 import "./index.css"
-import { Header } from "../components/Header/Header"
-import { List } from "../components/List/List"
-import items from "./../items.json"
-import { Helmet } from "react-helmet"
-import { LineItem } from "../components/LineItem/LineItem"
 import { LargeIconLineItem } from "../components/LargeIconLineItem/LargeIconLineItem"
+import { List } from "../components/List/List"
+import { PageTemplate } from "../components/PageTemplate/PageTemplate"
+import items from "./../items.json"
 import { LinksSection } from "../components/LinksSection/LinksSection"
 
-const IndexPage = () => {
-  console.log(Object.keys(items.Current[0]))
+const skills = [
+  items.Projects.map((item) => item.items.map((project) => project.tags)),
+  items.Current.map((item) => item.items.map((project) => project.tags)),
+  items.Achievements.map((item) => item.items.map((project) => project.tags)),
+].flat(3)
+// Count occurances of each skill
+const skillCounts = skills.reduce((acc: { [key: string]: number }, skill: string) => {
+  if (acc[skill]) {
+    acc[skill]++
+  } else {
+    acc[skill] = 1
+  }
+  return acc
+}, {})
+const skillsSorted = Object.keys(skillCounts).sort((a, b) => skillCounts[b] - skillCounts[a])
+const skillsFiltered = skillsSorted.filter((skill) => skillCounts[skill] > 1)
+
+export default function About() {
   return (
-    <div style={{ display: "flex" }}>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Stephan</title>
-        <script async defer src="https://beampipe.io/js/tracker.js" data-beampipe-domain="stephancill.co.za"></script>
-      </Helmet>
-      <div style={{ marginLeft: "auto", marginRight: "auto", maxWidth: "600px" }}>
-        <div className="content">
-          <Header />
-          <List
-            heading="Current"
-            years={items.Current}
-            lineItemBuilder={(item, index) => {
-              return (
-                <div style={{ paddingBottom: "35px" }}>
-                  <LineItem item={item} key={index} />
-                </div>
-              )
-            }}
-          />
-
-          <List
-            heading="Projects"
-            years={items.Projects}
-            lineItemBuilder={(item, index) => {
-              return (
-                <div style={{ paddingBottom: "26px" }}>
-                  <LargeIconLineItem item={item} key={index} />
-                </div>
-              )
-            }}
-          />
-
-          <LinksSection links={items.Links} />
-        </div>
-        <div style={{ textAlign: "center" }}>
-          <a
-            style={{ color: "black" }}
-            href="http://github.com/stephancill/personal-page"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            src
-          </a>{" "}
-          © 2022
-        </div>
+    <PageTemplate>
+      <div style={{ marginBottom: "35px" }}>
+        <div style={{ fontWeight: "bold", marginBottom: "15px" }}>About</div>
+        Hi, I'm Stephan. I enjoy solving problems by shipping products with an obsessive attention to detail. I am
+        interested in decentralisation and how distributed technology can be leveraged to improve the lives of billions
+        of people.
       </div>
-    </div>
+
+      <div style={{ marginBottom: "35px" }}>
+        <div style={{ fontWeight: "bold", marginBottom: "15px" }}>Skills</div>
+        <div>{skillsFiltered.join(" • ")}</div>
+      </div>
+
+      <LinksSection links={items.Links} />
+    </PageTemplate>
   )
 }
-
-export default IndexPage

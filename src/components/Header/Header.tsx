@@ -22,12 +22,6 @@ export const Header = () => {
           </div>
         </div>
       </div>
-      <div style={{ marginTop: "20px" }}>
-        <div style={{ fontWeight: "bold", marginBottom: "15px" }}>About</div>
-        Hi, I'm Stephan. I enjoy solving problems by shipping products with an obsessive attention to detail. I am
-        interested in decentralisation and how distributed technology can be leveraged to improve the lives of billions
-        of people.
-      </div>
     </div>
   )
 }
